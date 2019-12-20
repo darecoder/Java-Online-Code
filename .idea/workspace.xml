@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7eb4b91-3803-4f90-bbfb-0c6f33979e0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/CB/Queue/PrintKMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CB/Queue/PrintKMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576837893367</updated>
-      <workItem from="1576837896282" duration="11450000" />
+      <workItem from="1576837896282" duration="12025000" />
     </task>
     <servers />
   </component>
