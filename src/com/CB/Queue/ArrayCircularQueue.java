@@ -3,11 +3,12 @@ package com.CB.Queue;
 public class ArrayCircularQueue {
 
     int[] data;
-    int max_size;
-    int curr_size;
+    int max_size;       //Maximum capacity of Queue
+    int curr_size;      //Total no. of current elements in the queue
     int front;
     int rear;
 
+    //Constructor for default initialization
     public ArrayCircularQueue(int size) {
         max_size = size;
         data = new int[max_size];
@@ -29,6 +30,7 @@ public class ArrayCircularQueue {
     //To add element in Queue
     public void enqueue(int value){
         if (!isfull()){
+            //Calculate index of rear end
             this.rear = (this.rear + 1) % this.max_size;
             this.data[rear] = value;
             this.curr_size++;
@@ -38,6 +40,7 @@ public class ArrayCircularQueue {
     //To remove element from the queue
     public void dequeue(){
         if (!isEmpty()){
+            //Calculate index of front end
             this.front = (this.front + 1) % this.max_size;
             this.curr_size--;
         }
@@ -50,10 +53,10 @@ public class ArrayCircularQueue {
 
 }
 
+//Client class to test the code
 class Test{
     public static void main(String[] args) {
         ArrayCircularQueue queue = new ArrayCircularQueue(5);
-
         for (int i = 1; i <= 5; i++) {
             queue.enqueue(i);
         }
