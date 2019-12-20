@@ -2,12 +2,13 @@ package com.CB.Queue;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class PrintKMax {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+
+        //input size & elements of array
         int n = s.nextInt();
         int[] nums = new int[n];
 
@@ -15,6 +16,7 @@ public class PrintKMax {
             nums[i] = s.nextInt();
         }
 
+        //Size of sliding window
         int k = s.nextInt();
         printKMax(nums, k);
     }
@@ -26,7 +28,6 @@ public class PrintKMax {
             while (!q.isEmpty() && nums[i] >= nums[q.getLast()]) {
                 q.pop();
             }
-
             q.add(i);
         }
 
