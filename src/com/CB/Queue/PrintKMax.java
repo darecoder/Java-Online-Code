@@ -21,6 +21,8 @@ public class PrintKMax {
         printKMax(nums, k);
     }
 
+    /*Function to print the new array having
+      maximum element in every window of size k*/
     public static void printKMax(int[] nums, int k){
         Deque<Integer> q = new LinkedList<>();
         int i = 0;
