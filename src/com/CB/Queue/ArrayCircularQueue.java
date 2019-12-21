@@ -38,12 +38,15 @@ public class ArrayCircularQueue {
     }
 
     //To remove element from the queue
-    public void dequeue(){
+    public int dequeue(){
         if (!isEmpty()){
+            int temp = this.data[front];
             //Calculate index of front end
             this.front = (this.front + 1) % this.max_size;
             this.curr_size--;
+            return temp;
         }
+        return -1;
     }
 
     //To get peek element
@@ -61,7 +64,7 @@ class Test{
             queue.enqueue(i);
         }
 
-        queue.dequeue();
+        System.out.println(queue.dequeue());
         queue.enqueue(8);
         while (!queue.isEmpty()){
             System.out.println(queue.getFront());
