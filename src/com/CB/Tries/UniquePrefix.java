@@ -32,17 +32,7 @@ class Tries{
     }
 
     public boolean search(String str){
-        Node temp = this.root;
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (temp.children.containsKey(ch)){
-                temp = temp.children.get(ch);
-            }else {
-                return false;
-            }
-        }
 
-        return temp.terminal;
     }
 
     public Pair<Character, Character> maxXorPair() {
