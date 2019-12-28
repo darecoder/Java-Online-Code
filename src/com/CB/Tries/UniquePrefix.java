@@ -2,8 +2,6 @@ package com.CB.Tries;
 
 import javafx.util.Pair;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 class Tries{
@@ -30,19 +28,7 @@ class Tries{
     }
 
     public void addWord(String str){
-        Node temp = this.root;
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if(temp.children.containsKey(ch)){
-                temp = temp.children.get(ch);
-            }else {
-                Node n = new Node(ch);
-                temp.children.put(ch, n);
-                temp = n;
-            }
-        }
 
-        temp.terminal = true;
     }
 
     public boolean search(String str){
