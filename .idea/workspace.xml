@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7eb4b91-3803-4f90-bbfb-0c6f33979e0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/CB/Fundamentals1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CB/Fundamentals2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CB/Hashing/LongestSubarraySumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CB/Stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CB/TwoDimArrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/CB/Hashing/LengthSubarraySumZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CB/Hashing/LengthSubarraySumZero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -34,13 +40,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Talkito" />
   </component>
-  <component name="RunManager" selected="Application.LengthSubarraySumZero">
-    <configuration name="K_SortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.CB.Heap.K_SortedArrays" />
+  <component name="RunManager" selected="Application.LongestSubarraySumK">
+    <configuration name="LengthSubarraySumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CB.Hashing.LengthSubarraySumZero" />
       <module name="JavaOnlineCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.CB.Heap.*" />
+          <option name="PATTERN" value="com.CB.Hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthSubarraySumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.CB.Hashing.LengthSubarraySumZero" />
+    <configuration name="LongestSubarraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CB.Hashing.LongestSubarraySumK" />
       <module name="JavaOnlineCourse" />
       <extension name="coverage">
         <pattern>
@@ -102,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubarraySumK" />
         <item itemvalue="Application.LengthSubarraySumZero" />
         <item itemvalue="Application.SubarraySumZero" />
         <item itemvalue="Application.MaxXorPair" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.K_SortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +152,7 @@
       <workItem from="1577808730093" duration="686000" />
       <workItem from="1577853096762" duration="2873000" />
       <workItem from="1577883261735" duration="9202000" />
-      <workItem from="1577958518167" duration="858000" />
+      <workItem from="1577958518167" duration="2261000" />
     </task>
     <servers />
   </component>
@@ -166,22 +172,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577022010625" />
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1577903537385">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1577960786803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577903537385" />
-    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1577903537385">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577960786803" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1577960786803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577903537385" />
-    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1577903537384">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577960786803" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1577960786803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577903537384" />
-    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1577903537385">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577960786803" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1577960786803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577903537385" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577960786803" />
     <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1577958955100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
